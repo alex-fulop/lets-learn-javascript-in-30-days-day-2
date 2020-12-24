@@ -1,0 +1,30 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Variables */
+:root {
+    --bg-color: #fc0303;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height: 100vh;
+    background-color:  var(--bg-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+input {
+    margin-left: .5rem;
+}
