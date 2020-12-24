@@ -3,7 +3,7 @@
 
 /* Variables */
 :root {
-    --bg-color: #fc0303;
+    --bg-color: hsl(0, 98%, 50%);
 }
 
 /* Global Reset */
